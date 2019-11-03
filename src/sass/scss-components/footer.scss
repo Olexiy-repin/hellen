@@ -1,0 +1,301 @@
+.footer__request {
+  padding-top: 48px;
+  padding-bottom: 56px;
+  background-image: url(../images/footer/footer-320.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 320px;
+  height: auto;
+  text-align: center;
+}
+
+.footer__title {
+  font-family: "MontserratEB", sans-serif;
+  margin-bottom: 17px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 800;
+  letter-spacing: .6px;
+  width: 250px;
+}
+
+.footer__title span {
+  color: #ff6b08;
+}
+
+.footer__subtitle {
+  font-family: "MontserratSB", sans-serif;
+  margin-bottom: 25px;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+
+.footer__subtitle span {
+  color: #ff6b08;
+}
+
+.form__registration {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 55px;
+  width: 280px;
+  height: 120px;
+}
+
+.form__registration input {
+  font-family: "MontserratSB", sans-serif;
+  display: block;
+  padding-left: 23px;
+  height: 50px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 38px;
+  font-weight: 600;
+  background-color: transparent;
+}
+
+::placeholder {
+  color: #ffffff;
+}
+
+.form__button {
+  font-family: "MontserratSB", sans-serif;
+  width: 250px;
+  height: 48px;
+  background-color: #ff6b08;
+  border: none;
+  color: #ffffff;
+  font-size: 11px;
+  line-height: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.contacts {
+  padding-top: 26px;
+  padding-bottom: 14px;
+  text-align: center;
+}
+
+.contacts__phone {
+  font-family: "MontserratSB", sans-serif;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  color: #111517;
+  font-size: 18px;
+  line-height: 38px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.contacts__phone::before {
+  display: block;
+  content: '';
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0;
+  top: 8px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/footer/icon-call.svg);
+}
+
+.contacts__link {
+  display: block;
+}
+
+.instagram__icon {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 37px;
+}
+
+.logo__icon {
+  margin: 0 auto;
+  width: 79px;
+}
+
+.logo__img {
+  margin: 0 auto;
+}
+
+.legal__information {
+  font-family: "MontserratM", sans-serif;
+  padding: 17px 0;
+  min-height: 72px;
+  background-color: #111517;
+  color: rgba(253, 254, 254, 0.42);
+  font-size: 11px;
+  line-height: 38px;
+  font-weight: 500;
+  text-align: center;
+
+  span {
+    letter-spacing: .5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    min-width: 688px;
+  }
+
+  .footer__request {
+    padding-top: 54px;
+    padding-bottom: 64px;
+    background-image: url(../images/footer/footer-768.jpg);
+    min-width: 768px;
+  }
+
+  .footer__title {
+    margin-bottom: 23px;
+    padding: 0 72px;
+    font-size: 22px;
+    line-height: 38px;
+    letter-spacing: 1px;
+  }
+
+  .footer__subtitle {
+    margin-bottom: 39px;
+    padding: 0 114px;
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .form__registration {
+    margin: 0 auto;
+    margin-bottom: 31px;
+    width: 400px;
+    height: 120px;
+  }
+
+  .contacts {
+    display: flex;
+    padding: 37px 0;
+    text-align: left;
+  }
+
+  .contacts__link {
+    margin: 0;
+  }
+
+  .contacts__phone {
+    margin-right: 30px;
+    margin-bottom: 0;
+    padding-right: 30px;
+    font-size: 20px;
+    order: 2;
+  }
+
+  .contacts__phone::after {
+    display: block;
+    content: '';
+    width: 1px;
+    height: 29px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    background-color: #e0e0e0;
+  }
+
+  .instagram__icon {
+    margin: 0;
+    order: 3;
+  }
+
+  .logo__icon {
+    margin: 0;
+    margin-right: 83px;
+    width: 126px;
+    order: 1;
+  }
+
+  .legal__information {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    min-width: 1210px;
+  }
+
+  .footer__request {
+    padding-top: 78px;
+    padding-bottom: 88px;
+    background-image: url(../images/footer/footer-1280.jpg);
+    min-width: 1280px;
+  }
+
+  .footer__title {
+    margin-bottom: 39px;
+    padding: 0 142px;
+    font-size: 38px;
+    line-height: 50px;
+  }
+
+  .footer__subtitle {
+    margin-bottom: 50px;
+    padding: 0 336px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .form__registration {
+    margin: 0 auto;
+    margin-bottom: 57px;
+    width: 620px;
+    height: 172px;
+  }
+
+  .form__registration input {
+    padding-left: 27px;
+    height: 72px;
+    font-size: 21px;
+  }
+
+  .form__button {
+    width: 350px;
+    height: 68px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .contacts {
+    padding: 50px 0;
+  }
+
+  .contacts__phone {
+    padding-left: 50px;
+    font-size: 27px;
+  }
+
+  .contacts__phone::before {
+    width: 42px;
+    height: 42px;
+    top: 4px;
+  }
+
+  .logo__icon {
+    margin-right: 254px;
+  }
+
+  .legal__information {
+    font-size: 15px;
+  }
+}
