@@ -7,7 +7,7 @@ body {
 }
 
 .teacher-section {
-  padding-top: 238px;
+  margin-top: 238px;
   padding-bottom: 16px;
   position: relative;
 }
@@ -98,6 +98,7 @@ body {
 }
 
 .teacher-achievement__link {
+  display: block;
   font-family: "MontserratR", sans-serif;
   padding-left: 15px;
   color: #ff6b08;
@@ -109,6 +110,10 @@ body {
   background-color: transparent;
   text-decoration: underline;
   cursor: pointer;
+
+  &:not(:last-of-type) {
+    margin-bottom: 8px;
+  }
 }
 
 .certificate-modal {
@@ -368,7 +373,7 @@ body {
   }
 
   .teacher-section {
-    padding-top: 215px;
+    margin-top: 215px;
     padding-bottom: 20px;
   }
 
@@ -589,7 +594,7 @@ body {
   }
 
   .teacher-section {
-    padding-top: 81px;
+    margin-top: 81px;
     padding-bottom: 48px;
     letter-spacing: 1.7px;
   }
@@ -725,7 +730,7 @@ body {
   }
 
   .slides__about-tablet {
-    height: 150px;
+    height: 120px;
   }
 
   .slides__about_active {

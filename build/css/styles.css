@@ -684,6 +684,46 @@ template {
   background-image: url("../images/reviews/54x54/slide-7.png") !important;
 }
 
+.owl-dots .owl-dot:nth-of-type(8) {
+  background-image: url("../images/reviews/54x54/slide-8.png") !important;
+}
+
+.owl-dots .owl-dot:nth-of-type(9) {
+  background-image: url("../images/reviews/54x54/slide-9.png") !important;
+}
+
+.owl-dots .owl-dot:nth-of-type(10) {
+  background-image: url("../images/reviews/54x54/slide-10.png") !important;
+}
+
+.owl-dots .owl-dot:nth-of-type(11) {
+  background-image: url("../images/reviews/54x54/slide-11.png") !important;
+}
+
+.owl-dots .owl-dot:nth-of-type(12) {
+  background-image: url("../images/reviews/54x54/slide-12.png") !important;
+}
+
+.owl-dots .owl-dot:nth-of-type(13) {
+  background-image: url("../images/reviews/54x54/slide-13.png") !important;
+}
+
+.owl-dots .owl-dot:nth-of-type(14) {
+  background-image: url("../images/reviews/54x54/slide-14.png") !important;
+}
+
+.owl-dots .owl-dot:nth-of-type(15) {
+  background-image: url("../images/reviews/54x54/slide-15.png") !important;
+}
+
+.owl-dots .owl-dot:nth-of-type(16) {
+  background-image: url("../images/reviews/54x54/slide-16.png") !important;
+}
+
+.owl-dots .owl-dot:nth-of-type(17) {
+  background-image: url("../images/reviews/54x54/slide-17.png") !important;
+}
+
 .owl-dots .owl-dot:focus {
   outline: none;
 }
@@ -1134,7 +1174,7 @@ h6 {
 /* Solving SECTION */
 
 .solving-section {
-  padding-top: 196px;
+  margin-top: 196px;
   padding-bottom: 53px;
 }
 
@@ -1424,7 +1464,7 @@ body {
 }
 
 .teacher-section {
-  padding-top: 238px;
+  margin-top: 238px;
   padding-bottom: 16px;
   position: relative;
 }
@@ -1513,6 +1553,7 @@ body {
 }
 
 .teacher-achievement__link {
+  display: block;
   font-family: "MontserratR", sans-serif;
   padding-left: 15px;
   color: #ff6b08;
@@ -1524,6 +1565,10 @@ body {
   background-color: transparent;
   text-decoration: underline;
   cursor: pointer;
+}
+
+.teacher-achievement__link:not(:last-of-type) {
+  margin-bottom: 8px;
 }
 
 .certificate-modal {
@@ -2068,7 +2113,7 @@ body {
   }
 
   .solving-section {
-    padding-top: 216px;
+    margin-top: 216px;
     padding-bottom: 50px;
   }
 
@@ -2256,7 +2301,7 @@ body {
   }
 
   .teacher-section {
-    padding-top: 215px;
+    margin-top: 215px;
     padding-bottom: 20px;
   }
 
@@ -2701,7 +2746,7 @@ body {
 
   .solving-section {
     padding-bottom: 100px;
-    padding-top: 150px;
+    margin-top: 150px;
   }
 
   .solving-section__item {
@@ -2923,7 +2968,7 @@ body {
   }
 
   .teacher-section {
-    padding-top: 81px;
+    margin-top: 81px;
     padding-bottom: 48px;
     letter-spacing: 1.7px;
   }
@@ -3053,7 +3098,7 @@ body {
   }
 
   .slides__about-tablet {
-    height: 150px;
+    height: 120px;
   }
 
   .slides__about_active {

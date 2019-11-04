@@ -7,6 +7,7 @@
   const burgerBtn = document.querySelector('.menu-link');
   const closeBtn = document.querySelector('.header__modal-close-btn');
   const headerModal = document.querySelector('.header__modal-menu');
+  const menuLink = [...document.querySelectorAll('.header__modal-list-link')];
 
   const openModal = e => {
     headerModal.classList.add('header__modal-menu_active');
@@ -22,15 +23,31 @@
 
   burger.addEventListener('click', openModal);
   closeBtn.addEventListener('click', closeModal);
+  menuLink.forEach(item => {
+    item.addEventListener('click', closeModal);
+  });
 })();
 
 // CERTIFICATE
 (() => {
-  const certificateBtn = document.querySelector('.teacher-achievement__link');
-  const certificateModal = document.querySelector('.certificate-modal');
+  const certificateBtn = document.querySelector(
+    '.teacher-achievement__link_cambrige',
+  );
+  const certificateModal = document.querySelector(
+    '.certificate-modal_cambrige',
+  );
+
+  const certificateBtnZno = document.querySelector(
+    '.teacher-achievement__link_zno',
+  );
+  const certificateModalZno = document.querySelector('.certificate-modal_zno');
 
   const openCertificate = e => {
     certificateModal.classList.add('certificate-modal_active');
+  };
+
+  const openZnoCertificate = e => {
+    certificateModalZno.classList.add('certificate-modal_active');
   };
 
   const closeCertificate = e => {
@@ -38,10 +55,12 @@
 
     if (!target.classList.contains('teacher-achievement__link')) {
       certificateModal.classList.remove('certificate-modal_active');
+      certificateModalZno.classList.remove('certificate-modal_active');
     }
   };
 
   certificateBtn.addEventListener('click', openCertificate);
+  certificateBtnZno.addEventListener('click', openZnoCertificate);
   document.addEventListener('click', closeCertificate);
 })();
 
@@ -51,6 +70,7 @@
     loop: true,
     margin: 10,
     nav: true,
+    dots: true,
     navText: ['', ''],
     pagination: true,
     items: 1,
